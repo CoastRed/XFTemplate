@@ -1,0 +1,12 @@
+﻿<hd:Window x:Class="XFFrameWork.WPF.Shell.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:prism="http://prismlibrary.com/"
+        xmlns:hd="https://handyorg.github.io/handycontrol"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        Title="{Binding Title}" Height="600" Width="800" Background="SkyBlue" AllowsTransparency="False"
+           ShowTitle="False" ShowNonClientArea="False" IsFullScreen="True">
+    <Grid>
+        
+    </Grid>
+</hd:Window>
